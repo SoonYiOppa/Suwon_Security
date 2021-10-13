@@ -1,3 +1,7 @@
 *.xlsx
+
 *.csv
+
 *.geojson
+
+data/
