@@ -145,7 +145,7 @@ ggplot(all_top6,
 
 
 #구글 맵스 API key 입력
-register_google(key="AIzaSyBGreFQv5XCwx2mB1qrvZrpV7qmY9dQ48s")
+register_google(key="구글 맵스 API Key 사용")
 
 
 #서울시 유아시설 설치장소 시각화
