@@ -154,7 +154,7 @@ jinju_plot<- ggplot()+
             aes(x=long,y=lat,label=paste(name,s_all,sep="\n")))
 
 # 창원시 지도 만들기
-changwon_map <- new_map[new_map$id>=48121 & new_map$id <= 48129,]
+changwon_map <- new_map[new_map$id >= 48121 & new_map$id <= 48129,]
 changwon_merge <- merge(changwon_map,single_changwon,by="id")
 
 # 창원시 1인 여성 가구 분포 시각화
